@@ -1,4 +1,4 @@
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://ec2-18-225-37-127.us-east-2.compute.amazonaws.com:8080';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://ec2-18-225-37-127.us-east-2.compute.amazonaws.com:8080';
 
 export interface LoginRequest {
   username: string;
